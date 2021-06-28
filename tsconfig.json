@@ -25,6 +25,12 @@
       "@components/": [
         "./src/components"
       ],
+      "@theme/*": [
+        "./src/theme/*"
+      ],
+      "@theme/": [
+        "./src/theme"
+      ],
     }
   },
   "include": [
