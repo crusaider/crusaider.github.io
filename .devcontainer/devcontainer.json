@@ -24,7 +24,9 @@
 		"divlo.vscode-styled-jsx-languageserver",
 		"andys8.jest-snippets",
 		"kavod-io.vscode-jest-test-adapter",
-		"dsznajder.es7-react-js-snippets"
+		"dsznajder.es7-react-js-snippets",
+		"jounqin.vscode-mdx",
+		"formulahendry.auto-close-tag"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
