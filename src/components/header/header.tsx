@@ -5,9 +5,9 @@ import {
   Divider,
   Heading,
   Spacer,
-} from "@chakra-ui/react";
-import React, { FC } from "react";
-import ThemeToggle from "./theme-toggle";
+} from '@chakra-ui/react';
+import React, { FC } from 'react';
+import ThemeToggle from './theme-toggle';
 
 const Header: FC = () => {
   return (

@@ -1,17 +1,17 @@
 {
-	"version": "2.0.0",
-	"tasks": [
-		{
-			"type": "shell",
-			"label": "yarn next dev",
-			"command": "yarn dev",
-			"problemMatcher": []
-		},
-		{
-			"type": "shell",
-			"label": "yarn next build",
-			"command": "yarn build",
-			"problemMatcher": []
-		}
-	]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "yarn next dev",
+      "command": "yarn dev",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "yarn next build",
+      "command": "yarn build",
+      "problemMatcher": []
+    }
+  ]
 }
