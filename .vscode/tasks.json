@@ -9,8 +9,26 @@
     },
     {
       "type": "shell",
+      "label": "yarn next dev debug",
+      "command": "yarn dev:debug",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
       "label": "yarn next build",
       "command": "yarn build",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "yarn next export",
+      "command": "yarn export",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "yarn next start",
+      "command": "yarn start",
       "problemMatcher": []
     }
   ]

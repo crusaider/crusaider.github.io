@@ -7,7 +7,9 @@ const GitHubRepoBox: FC<{ repo: GitHubRepo }> = ({ repo }) => (
     <Heading as="h2" size="sm">
       <Link href={repo.html_url}>{repo.full_name}</Link>
     </Heading>
-    {repo.topics ? repo.topics.map((topic) => <Badge>{topic}</Badge>) : null}
+    {repo.topics
+      ? repo.topics.map((topic) => <Badge key={topic}>{topic}</Badge>)
+      : null}
     <Text>{repo.description}</Text>
   </Box>
 );
