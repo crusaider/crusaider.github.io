@@ -1,4 +1,4 @@
-import { Avatar, Link } from '@chakra-ui/react';
+import { Avatar } from '@chakra-ui/react';
 import React, { FC } from 'react';
 import { useQuery } from 'react-query';
 import { getGitHubUser, GitHubUser } from './api';
@@ -9,11 +9,7 @@ const GitHubUserAvatar: FC<{ username: string }> = ({ username }) => {
     () => getGitHubUser(username)
   );
 
-  const avatar = () => (
-    <Avatar name={data?.login} src={data?.avatar_url}></Avatar>
-  );
-
-  return data ? <Link href={data.html_url}>{avatar()}</Link> : avatar();
+  return <Avatar name={data?.login} src={data?.avatar_url}></Avatar>;
 };
 
 export default GitHubUserAvatar;
